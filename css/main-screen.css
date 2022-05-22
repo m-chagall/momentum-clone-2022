@@ -1,0 +1,106 @@
+#main-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#clock {
+    position: absolute;
+    bottom: 45%;
+    font-size: 150px;
+    font-weight: 800;
+    padding-top: 200px;
+    padding-bottom: 15px;    
+}
+#login-form {
+    position: absolute;
+    bottom: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+#login-form input {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: 600;
+    margin-right: 15px;
+}
+#login-form input::placeholder {
+    text-align: center;
+    color: black;
+}
+#login-form input:focus::placeholder {
+    color: transparent;
+}
+#login-form button {
+    width: 75px;
+    height: 50px;
+    background: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+}
+#greeting {
+    position: absolute;
+    bottom: 40%;
+    font-size: 50px;
+    font-weight: 700;
+}
+#todo-form {
+    position: absolute;
+    bottom: 15%;
+    width: 650px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+#todo-form h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#todo-form input {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+#todo-form input::placeholder {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+#todo-form input:focus::placeholder {
+    color: transparent;
+}
+#todo-list {
+    position: absolute;
+    bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+#todo-list span {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
+.todo-item button {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    margin-right: 25px;
+}
