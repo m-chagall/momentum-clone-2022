@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+@import "reset.css";
+@import "header.css";
+@import "main-screen.css";
+@import "footer.css";
+
+.hidden {
+	visibility: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: nunito;
+    color: white;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: radial-gradient(ellipse, farthest-corner at 45px 45px, #000000, #FFFFFF);
+}
+
+.wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
