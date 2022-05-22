@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Momentum App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="screen-header">
+        <div class="screen-header__column">
+          <div id="menu-bar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <div class="screen-header__column">
+          <div id="weather">
+            <h2></h2>
+            <h4></h4>
+          </div>
+        </div>
+      </header>
+
+      <main id="main-screen">
+        <h2 id="clock">00:00:00</h2>
+        <form id="login-form" class="hidden">
+          <input required maxlength="30" type="text" placeholder="NAME" />
+          <button>SIGN IN</button>
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todo-form" class="hidden">
+          <h1 class="todo-message">What are your goals for today?</h1>
+          <input type="text" placeholder="Today's goals" />
+        </form>
+        <ul id="todo-list"></ul>
+      </main>
+
+      <footer id="screen-footer">
+        <div class="screen-footer__column">
+          <div class="picture-location"></div>
+        </div>
+        <div class="screen-footer__column">
+          <div id="quote">
+            <h5 class="content"></h5>
+            <h6 class="author"></h6>
+          </div>
+        </div>
+        <div class="screen-footer__column">
+          <i class="fa-solid fa-star"></i>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/aea072e52f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
