@@ -1,0 +1,23 @@
+#screen-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 1.5% 2.5%;
+    background-color: rgba(0,0,0,0.5);
+}
+#menu-bar i {
+    font-size: 24px;
+}
+#weather {
+    display: flex;
+    flex-direction: column;
+}
+#weather h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#weather h4 {
+    font-size: 20px;
+    text-align: right;
+}
